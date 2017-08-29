@@ -1,5 +1,5 @@
-Exercícios Banco
 
+Exercício Banco
 1. Crie uma classe abstrata ContaBancaria que contém como atributos o numero da conta e
 o saldo, e como métodos abstratos sacar e depositar que recebem um parâmetro do tipo
 double.
@@ -41,15 +41,20 @@ método consiste em executar método mostrar dados de cada conta criada.
 
 11. Crie outra classe executável que instancie um banco e ofereça o seguinte menu para o
 usuário:
+
 a) Criar conta: o usuário informa se é conta poupança ou corrente e os dados da conta. O objeto
 correspondente é criado e inserido no banco através do método inserir. Exibir uma
 mensagem de sucesso.
+
 b)Selecionar conta: o usuário informa o número da conta. Se a conta existir, mostra o menu
 abaixo. Caso contrário, mostra mensagem de conta inexistente.
+
 c)Remover conta: o usuário informa o número da conta. Se a conta existe, então
 ela é excluída e uma mensagem de sucesso é informada. Caso contrário, uma
 mensagem de conta inexistente é informada.
+
 d)Gerar relatório: mostra os dados de todas as contas cadastradas no banco.
+
 e)Finalizar: termina a aplicação. Se o usuário escolher a opção 2 mostre o seguinte menu:
   a. Depositar: recebe um valor e deposita na conta.
   b. Sacar: recebe um valor e tenta sacar da conta.
