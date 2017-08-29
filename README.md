@@ -57,10 +57,15 @@ d)Gerar relatório: mostra os dados de todas as contas cadastradas no banco.
 
 e)Finalizar: termina a aplicação. Se o usuário escolher a opção 2 mostre o seguinte menu:
   a. Depositar: recebe um valor e deposita na conta.
+  
   b. Sacar: recebe um valor e tenta sacar da conta.
+  
   c. Transferir: recebe um valor e o número de outra conta. Caso a conta exista,
   transfere o valor de uma conta para a outra. Caso contrário, informar mensagem de
   conta inexistente.
+  
   d. Gerar relatório: mostra os dados da conta selecionada.
+  
   e. Retornar ao menu anterior: exibe o menu anterior (opções 1 a 5).
+  
 Use Interface gráfica.
